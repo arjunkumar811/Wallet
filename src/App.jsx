@@ -13,7 +13,7 @@ function App() {
 }}>
   Create Seed Phrase
 </button>
-      <p>{mnemonic}</p>
+     <input type="text" value={mnemonic}></input>
 
     </>
   );
